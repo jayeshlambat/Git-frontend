@@ -23,7 +23,7 @@ const ContextProvider = (props) => {
     }, [keyData]);
 
     const FetchData = () => {
-        axios.get("https://git-shield-backend.vercel.app/list")
+        axios.get("https://gitfiler-backend.vercel.app/list")
             .then(response => {
                 setListData(response?.data?.GitIgnoreList);
 
