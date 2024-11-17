@@ -58,6 +58,7 @@ const Header = () => {
                             {theme === "light" ? <DarkModeIcon /> : <LightModeIcon />}
                         </button>
                     </Tooltip>
+                    {/* Demo text */}
                 </span>
             </div>
         </div>
