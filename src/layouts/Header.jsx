@@ -51,15 +51,7 @@ const Header = () => {
             </div>
 
             <div className='flex space-x-4'>
-                <span>
-                    <a href="https://github.com/jayeshlambat/Git-Filter" target='_blank'>
-                        <Tooltip title="Source code">
-                            <button className='bg-[#E4EDED] hover:bg-[#c6cece] dark:text-white dark:bg-[#3e3947] dark:hover:bg-[#534d5f] p-2 rounded-full flex items-center justify-center'>
-                                <GitHubIcon />
-                            </button>
-                        </Tooltip>
-                    </a>
-                </span>
+
                 <span>
                     <Tooltip title={`${theme === "light" ? "Dark mode" : "Light mode"}`}>
                         <button className='bg-[#E4EDED] hover:bg-[#c6cece] dark:text-white dark:bg-[#3e3947] dark:hover:bg-[#534d5f] p-2 rounded-full flex items-center justify-center' onClick={toggleTheme}>
